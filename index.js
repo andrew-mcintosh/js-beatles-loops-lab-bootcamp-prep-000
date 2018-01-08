@@ -10,9 +10,10 @@ function johnLennonFacts() {
   var newFacts = [];
   var i = 0;
   while (facts > 0) {
-    newFacts.push(facts[i] )
-    return facts + "!!!";
+    newFacts.push(facts[i] + "!!!")
+    i++;
   }
+    return newFacts;
 }
 
 function iLoveTheBeatles(n) {
